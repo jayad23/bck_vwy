@@ -61,173 +61,208 @@
       "phone": "234234543234"
     }
   ],
-  "condicionActivacion": [
+  "commerce": [
     {
       "id": 1,
-      "nombre": "Sobre valor"
+      "nombre": "Restaurante el Bajo"
     },
     {
       "id": 2,
-      "nombre": "Bajo valor"
+      "nombre": "Peluqueria la Vaina"
     },
     {
       "id": 3,
-      "nombre": "Entre rango"
+      "nombre": "Cancha la Galera"
     },
     {
       "id": 4,
-      "nombre": "Fuera de rango"
+      "nombre": "Heladeria La Fuente"
+    },{
+      "id": 5,
+      "nombre": "Bakery Mills"
+    },{
+      "id": 6,
+      "nombre": "The Cheese Factory"
     }
   ],
-  "usuario": [
-    {
-      "empresaId": 7,
-      "granjaId": 1,
-      "plantelId": 1,
-      "galponId": 1,
-      "email": "julianrusso92@gmail.com",
-      "dni": 30555888,
-      "nombre": "Julian",
-      "apellido": "Russo Castro",
-      "telefono": "01159328791",
-      "telefonoAlternativo": "",
-      "contraseña": "Mm123123123",
-      "loginWeb": true,
-      "rolId": 1,
-      "estado": 1,
-      "alertaPorMail": 0,
-      "alertaPorSms": 1,
-      "permisos": {
-        "1": {
-          "1": [
-            1
-          ]
-        },
-        "2": {
-          "2": [
-            2,
-            3
-          ]
-        }
-      },
-      "id": 1
-    },
-    {
-      "empresaId": 7,
-      "granjaId": 1,
-      "plantelId": 1,
-      "galponId": 4,
-      "email": "duje@guje.com",
-      "dni": 125151514331434,
-      "nombre": "Duje",
-      "apellido": "Duje",
-      "telefono": "34524352355",
-      "telefonoAlternativo": "23452435235235435",
-      "contraseña": "Jaider23@",
-      "loginWeb": "true",
-      "rolId": 1,
-      "estado": false,
-      "alertaPorMail": false,
-      "alertaPorSms": false,
-      "permisos": null,
-      "id": 12
-    },
-    {
-      "empresaId": 7,
-      "granjaId": 1,
-      "plantelId": 1,
-      "galponId": 1,
-      "email": "matia@gmail.com",
-      "dni": 123456,
-      "nombre": "Matias",
-      "apellido": "L",
-      "telefono": "1122555",
-      "telefonoAlternativo": "",
-      "contraseña": "Codetria123",
-      "loginWeb": "",
-      "rolId": 1,
-      "estado": false,
-      "alertaPorMail": false,
-      "alertaPorSms": false,
-      "permisos": null,
-      "id": 13
-    }
-  ],
-  "granja": [
-    {
-      "empresaId": 7,
-      "nombre": "Guadalupito 1",
-      "ubicacion": "Perú",
-      "ubiGeoLat": "-8.893000",
-      "ubiGeoLon": "-78.599000",
-      "descri": "Esta es Guadalupito 1",
-      "estado": true,
-      "id": 1,
-      "granjaId": 1,
-      "estadoColor": 1,
-      "createdAt": "2019-11-28T02:21:02.000Z",
-      "updatedAt": "2019-11-28T02:21:02.000Z"
-    },
-    {
-      "empresaId": 7,
-      "nombre": "Guadalupito 2",
-      "ubicacion": "Perú",
-      "ubiGeoLat": "-9.893000",
-      "ubiGeoLon": "-79.599000",
-      "descri": "Esta es Guadulipito 2",
-      "estado": false,
-      "id": 2,
-      "granjaId": 2,
-      "estadoColor": 1,
-      "createdAt": "2019-11-28T02:21:02.000Z",
-      "updatedAt": "2019-11-28T02:21:02.000Z"
-    }
-  ],
-  "plantel": [
+  "events": [
     {
       "id": 1,
-      "empresaId": 7,
-      "granjaId": 1,
-      "plantelId": 1,
-      "nombre": "Plantel 1",
-      "ubicacion": "Perú",
-      "ubiGeoLat": "-8.893000",
-      "ubiGeoLon": "-78.599000",
-      "descri": "Descripción de plantel Uno",
+      "commerceId": 1,
+      "title": "Plantel 1",
+      "label": "Perú",
+      "startDate": "2022-07-22",
+      "endDate": "2022-07-22",
+      "time": "19:12",
+      "allDay": false,
       "estado": true,
-      "estadoColor": 1,
-      "createdAt": "2019-11-28T02:21:02.000Z",
-      "updatedAt": "2019-11-28T02:21:02.000Z"
+      "isThereGuest": false,
+      "location": "Establecimiento",
+      "description": "",
+      "isUpdated": false
     },
     {
       "id": 2,
-      "empresaId": 7,
-      "granjaId": 2,
-      "plantelId": 2,
-      "nombre": "Plantel 2",
-      "ubicacion": "Perú",
-      "ubiGeoLat": "-8.893000",
-      "ubiGeoLon": "-78.599000",
-      "descri": "Descripción de plantel dos",
-      "estado": false,
-      "estadoColor": 1,
-      "createdAt": "2019-11-28T02:21:02.000Z",
-      "updatedAt": "2019-11-28T02:21:02.000Z"
+      "commerceId": 1,
+      "title": "Plantel 1",
+      "label": "Perú",
+      "startDate": "2022-08-22",
+      "endDate": "2022-08-22",
+      "time": "19:12",
+      "allDay": false,
+      "estado": true,
+      "isThereGuest": false,
+      "location": "Establecimiento",
+      "description": "",
+      "isUpdated": false
     },
     {
-      "empresaId": 7,
-      "granjaId": 2,
-      "nombre": "Plantel 3",
-      "ubicacion": "Perú",
-      "ubiGeoLat": "-8.893000",
-      "ubiGeoLon": "-78.599000",
-      "descri": "Descripción Plantel tres de los amores",
-      "estado": true,
       "id": 3,
-      "plantelId": 3,
-      "estadoColor": -1,
-      "createdAt": "2019-11-28T02:21:02.000Z",
-      "updatedAt": "2019-11-28T02:21:02.000Z"
+      "commerceId": 1,
+      "title": "Plantel 1",
+      "label": "Perú",
+      "startDate": "2022-09-22",
+      "endDate": "2022-09-22",
+      "time": "19:12",
+      "allDay": false,
+      "estado": true,
+      "isThereGuest": false,
+      "location": "Establecimiento",
+      "description": "",
+      "isUpdated": false
+    },
+    {
+      "id": 1,
+      "commerceId": 2,
+      "title": "Plantel 1",
+      "label": "Perú",
+      "startDate": "2022-07-22",
+      "endDate": "2022-07-22",
+      "time": "19:12",
+      "allDay": false,
+      "estado": true,
+      "isThereGuest": false,
+      "location": "Establecimiento",
+      "description": "",
+      "isUpdated": false
+    },
+    {
+      "id": 2,
+      "commerceId": 2,
+      "title": "Plantel 1",
+      "label": "Perú",
+      "startDate": "2022-08-22",
+      "endDate": "2022-08-22",
+      "time": "19:12",
+      "allDay": false,
+      "estado": true,
+      "isThereGuest": false,
+      "location": "Establecimiento",
+      "description": "",
+      "isUpdated": false
+    },
+    {
+      "id": 3,
+      "commerceId": 2,
+      "title": "Plantel 1",
+      "label": "Perú",
+      "startDate": "2022-09-22",
+      "endDate": "2022-09-22",
+      "time": "19:12",
+      "allDay": false,
+      "estado": true,
+      "isThereGuest": false,
+      "location": "Establecimiento",
+      "description": "",
+      "isUpdated": false
+    },{
+      "id": 1,
+      "commerceId": 3,
+      "title": "Plantel 1",
+      "label": "Perú",
+      "startDate": "2022-07-22",
+      "endDate": "2022-07-22",
+      "time": "19:12",
+      "allDay": false,
+      "estado": true,
+      "isThereGuest": false,
+      "location": "Establecimiento",
+      "description": "",
+      "isUpdated": false
+    },
+    {
+      "id": 2,
+      "commerceId": 3,
+      "title": "Plantel 1",
+      "label": "Perú",
+      "startDate": "2022-08-22",
+      "endDate": "2022-08-22",
+      "time": "19:12",
+      "allDay": false,
+      "estado": true,
+      "isThereGuest": false,
+      "location": "Establecimiento",
+      "description": "",
+      "isUpdated": false
+    },
+    {
+      "id": 3,
+      "commerceId": 3,
+      "title": "Plantel 1",
+      "label": "Perú",
+      "startDate": "2022-09-22",
+      "endDate": "2022-09-22",
+      "time": "19:12",
+      "allDay": false,
+      "estado": true,
+      "isThereGuest": false,
+      "location": "Establecimiento",
+      "description": "",
+      "isUpdated": false
+    },{
+      "id": 1,
+      "commerceId": 4,
+      "title": "Plantel 1",
+      "label": "Perú",
+      "startDate": "2022-07-22",
+      "endDate": "2022-07-22",
+      "time": "19:12",
+      "allDay": false,
+      "estado": true,
+      "isThereGuest": false,
+      "location": "Establecimiento",
+      "description": "",
+      "isUpdated": false
+    },
+    {
+      "id": 2,
+      "commerceId": 4,
+      "title": "Plantel 1",
+      "label": "Perú",
+      "startDate": "2022-08-22",
+      "endDate": "2022-08-22",
+      "time": "19:12",
+      "allDay": false,
+      "estado": true,
+      "isThereGuest": false,
+      "location": "Establecimiento",
+      "description": "",
+      "isUpdated": false
+    },
+    {
+      "id": 3,
+      "commerceId": 4,
+      "title": "Plantel 1",
+      "label": "Perú",
+      "startDate": "2022-09-22",
+      "endDate": "2022-09-22",
+      "time": "19:12",
+      "allDay": false,
+      "estado": true,
+      "isThereGuest": false,
+      "location": "Establecimiento",
+      "description": "",
+      "isUpdated": false
     }
   ],
   "centro": [
