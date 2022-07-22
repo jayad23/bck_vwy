@@ -1,0 +1,1922 @@
+{
+  "rol": [
+    {
+      "id": 1,
+      "nombre": "SuperAdministrador"
+    },
+    {
+      "id": 2,
+      "nombre": "Administrador"
+    },
+    {
+      "id": 3,
+      "nombre": "Supervisor"
+    },
+    {
+      "id": 4,
+      "nombre": "Usuario"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "name": "Temperatura"
+    },
+    {
+      "id": 2,
+      "name": "Humedad"
+    },
+    {
+      "id": 3,
+      "name": "CO2"
+    },
+    {
+      "id": 4,
+      "name": "Días de crecimiento"
+    },
+    {
+      "id": 5,
+      "name": "Consumo de Agua"
+    },
+    {
+      "id": 6,
+      "name": "Consumo de Alimento"
+    }
+  ],
+  "condicionActivacion": [
+    {
+      "id": 1,
+      "nombre": "Sobre valor"
+    },
+    {
+      "id": 2,
+      "nombre": "Bajo valor"
+    },
+    {
+      "id": 3,
+      "nombre": "Entre rango"
+    },
+    {
+      "id": 4,
+      "nombre": "Fuera de rango"
+    }
+  ],
+  "usuario": [
+    {
+      "empresaId": 7,
+      "granjaId": 1,
+      "plantelId": 1,
+      "galponId": 1,
+      "email": "julianrusso92@gmail.com",
+      "dni": 30555888,
+      "nombre": "Julian",
+      "apellido": "Russo Castro",
+      "telefono": "01159328791",
+      "telefonoAlternativo": "",
+      "contraseña": "Mm123123123",
+      "loginWeb": true,
+      "rolId": 1,
+      "estado": 1,
+      "alertaPorMail": 0,
+      "alertaPorSms": 1,
+      "permisos": {
+        "1": {
+          "1": [
+            1
+          ]
+        },
+        "2": {
+          "2": [
+            2,
+            3
+          ]
+        }
+      },
+      "id": 1
+    },
+    {
+      "empresaId": 7,
+      "granjaId": 1,
+      "plantelId": 1,
+      "galponId": 4,
+      "email": "duje@guje.com",
+      "dni": 125151514331434,
+      "nombre": "Duje",
+      "apellido": "Duje",
+      "telefono": "34524352355",
+      "telefonoAlternativo": "23452435235235435",
+      "contraseña": "Jaider23@",
+      "loginWeb": "true",
+      "rolId": 1,
+      "estado": false,
+      "alertaPorMail": false,
+      "alertaPorSms": false,
+      "permisos": null,
+      "id": 12
+    },
+    {
+      "empresaId": 7,
+      "granjaId": 1,
+      "plantelId": 1,
+      "galponId": 1,
+      "email": "matia@gmail.com",
+      "dni": 123456,
+      "nombre": "Matias",
+      "apellido": "L",
+      "telefono": "1122555",
+      "telefonoAlternativo": "",
+      "contraseña": "Codetria123",
+      "loginWeb": "",
+      "rolId": 1,
+      "estado": false,
+      "alertaPorMail": false,
+      "alertaPorSms": false,
+      "permisos": null,
+      "id": 13
+    }
+  ],
+  "granja": [
+    {
+      "empresaId": 7,
+      "nombre": "Guadalupito 1",
+      "ubicacion": "Perú",
+      "ubiGeoLat": "-8.893000",
+      "ubiGeoLon": "-78.599000",
+      "descri": "Esta es Guadalupito 1",
+      "estado": true,
+      "id": 1,
+      "granjaId": 1,
+      "estadoColor": 1,
+      "createdAt": "2019-11-28T02:21:02.000Z",
+      "updatedAt": "2019-11-28T02:21:02.000Z"
+    },
+    {
+      "empresaId": 7,
+      "nombre": "Guadalupito 2",
+      "ubicacion": "Perú",
+      "ubiGeoLat": "-9.893000",
+      "ubiGeoLon": "-79.599000",
+      "descri": "Esta es Guadulipito 2",
+      "estado": false,
+      "id": 2,
+      "granjaId": 2,
+      "estadoColor": 1,
+      "createdAt": "2019-11-28T02:21:02.000Z",
+      "updatedAt": "2019-11-28T02:21:02.000Z"
+    }
+  ],
+  "plantel": [
+    {
+      "id": 1,
+      "empresaId": 7,
+      "granjaId": 1,
+      "plantelId": 1,
+      "nombre": "Plantel 1",
+      "ubicacion": "Perú",
+      "ubiGeoLat": "-8.893000",
+      "ubiGeoLon": "-78.599000",
+      "descri": "Descripción de plantel Uno",
+      "estado": true,
+      "estadoColor": 1,
+      "createdAt": "2019-11-28T02:21:02.000Z",
+      "updatedAt": "2019-11-28T02:21:02.000Z"
+    },
+    {
+      "id": 2,
+      "empresaId": 7,
+      "granjaId": 2,
+      "plantelId": 2,
+      "nombre": "Plantel 2",
+      "ubicacion": "Perú",
+      "ubiGeoLat": "-8.893000",
+      "ubiGeoLon": "-78.599000",
+      "descri": "Descripción de plantel dos",
+      "estado": false,
+      "estadoColor": 1,
+      "createdAt": "2019-11-28T02:21:02.000Z",
+      "updatedAt": "2019-11-28T02:21:02.000Z"
+    },
+    {
+      "empresaId": 7,
+      "granjaId": 2,
+      "nombre": "Plantel 3",
+      "ubicacion": "Perú",
+      "ubiGeoLat": "-8.893000",
+      "ubiGeoLon": "-78.599000",
+      "descri": "Descripción Plantel tres de los amores",
+      "estado": true,
+      "id": 3,
+      "plantelId": 3,
+      "estadoColor": -1,
+      "createdAt": "2019-11-28T02:21:02.000Z",
+      "updatedAt": "2019-11-28T02:21:02.000Z"
+    }
+  ],
+  "centro": [
+    {
+      "id": 1,
+      "empresaId": 7,
+      "granjaId": 1,
+      "plantelId": 1,
+      "galponId": 1,
+      "nombre": "Galpón 1",
+      "ubicacion": "Perú",
+      "ubiGeoLat": "-8.893000",
+      "ubiGeoLon": "-78.599000",
+      "descri": "",
+      "estado": false,
+      "estadoColor": 0,
+      "createdAt": "2019-11-28T02:21:02.000Z",
+      "updatedAt": "2019-11-28T02:21:02.000Z"
+    },
+    {
+      "empresaId": 7,
+      "granjaId": 2,
+      "plantelId": 2,
+      "nombre": "Galpón 2",
+      "ubicacion": "Perú",
+      "ubiGeoLat": "-8.893000",
+      "ubiGeoLon": "-78.599000",
+      "descri": "Galpon 2 de Granja 1 de plantel 2",
+      "estado": true,
+      "id": 2,
+      "galponId": 2,
+      "estadoColor": 1,
+      "createdAt": "2019-11-28T02:21:02.000Z",
+      "updatedAt": "2019-11-28T02:21:02.000Z"
+    },
+    {
+      "empresaId": 7,
+      "granjaId": 2,
+      "plantelId": 2,
+      "nombre": "Galpón 3",
+      "ubicacion": "Perú",
+      "ubiGeoLat": "-8.893000",
+      "ubiGeoLon": "-78.599000",
+      "descri": "Nos sentimos orgullosos de este galpón",
+      "estado": true,
+      "id": 3,
+      "galponId": 3,
+      "estadoColor": 2,
+      "createdAt": "2019-11-28T02:21:02.000Z",
+      "updatedAt": "2019-11-28T02:21:02.000Z"
+    },
+    {
+      "empresaId": 7,
+      "granjaId": 1,
+      "plantelId": 1,
+      "nombre": "Galpón 4",
+      "ubicacion": "Perú",
+      "ubiGeoLat": "-8.893000",
+      "ubiGeoLon": "-78.599000",
+      "descri": "Galpon 4 de Granja 1 de plantel 1",
+      "estado": false,
+      "id": 4,
+      "galponId": 4,
+      "estadoColor": 1,
+      "createdAt": "2019-11-28T02:21:02.000Z",
+      "updatedAt": "2019-11-28T02:21:02.000Z"
+    }
+  ],
+  "sensor": [
+    {
+      "id": 1,
+      "idSensor": 1,
+      "empresaId": 7,
+      "granjaId": 2,
+      "plantelId": 2,
+      "galponId": 2,
+      "tipoVariable": 1,
+      "nombre": "Sensor 1",
+      "ubicacion": "Perú",
+      "descri": "",
+      "estado": true
+    },
+    {
+      "empresaId": 7,
+      "granjaId": 1,
+      "galponId": 1,
+      "plantelId": 1,
+      "nombre": "Sensor 2",
+      "tipoVariable": 3,
+      "descri": "Medir ",
+      "ubicacion": "1",
+      "estado": false,
+      "id": 2
+    }
+  ],
+  "alarma": [
+    {
+      "granjaId": 1,
+      "plantelId": 1,
+      "galponId": 1,
+      "granjaAll": false,
+      "plantelAll": false,
+      "galponAll": false,
+      "sendAlertsEmail": false,
+      "sendAlertsSms": false,
+      "temp1": {
+        "state": "silenced",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          24
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "temp2": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "temp3": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "humidity": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "dayGrowth": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "co2": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          300,
+          1300
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "waterCons": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "feedCons": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "id": 1
+    },
+    {
+      "granjaId": 1,
+      "plantelId": 1,
+      "galponId": 4,
+      "granjaAll": false,
+      "plantelAll": false,
+      "galponAll": false,
+      "sendAlertsEmail": false,
+      "sendAlertsSms": false,
+      "temp1": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "temp2": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "temp3": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "humidity": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "dayGrowth": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "co2": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          300,
+          1300
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "waterCons": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "feedCons": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "id": 2
+    },
+    {
+      "granjaId": 2,
+      "plantelId": 2,
+      "galponId": 2,
+      "granjaAll": false,
+      "plantelAll": false,
+      "galponAll": false,
+      "sendAlertsEmail": false,
+      "sendAlertsSms": false,
+      "temp1": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "temp2": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "temp3": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "humidity": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "dayGrowth": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "co2": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          300,
+          1300
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "waterCons": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "feedCons": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "id": 3
+    },
+    {
+      "granjaId": 2,
+      "plantelId": 2,
+      "galponId": 3,
+      "granjaAll": false,
+      "plantelAll": false,
+      "galponAll": false,
+      "sendAlertsEmail": false,
+      "sendAlertsSms": false,
+      "temp1": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "temp2": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "temp3": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "humidity": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "dayGrowth": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "co2": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          300,
+          1300
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "waterCons": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "feedCons": {
+        "state": "off",
+        "condition": "Fuera de Rango",
+        "timeMargin": 0,
+        "values": [
+          10,
+          30
+        ],
+        "hasNotifyTime": false,
+        "notifyTime": 0
+      },
+      "id": 4
+    }
+  ],
+  "timelines": [
+    {
+      "id": 1,
+      "galponId": 1,
+      "alerts": [
+        {
+          "title": "Temperatura 1",
+          "status": "Normal",
+          "time": "15:22",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae dicta voluptatibus unde quaerat veniam expedita aspernatur? Obcaecati fuga vitae aliquid. Quia est earum eveniet odit consectetur aliquid quas maiores rem."
+        },
+        {
+          "title": "Temperatura 2",
+          "status": "Pending",
+          "time": "15:22",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae dicta voluptatibus unde quaerat veniam expedita aspernatur? Obcaecati fuga vitae aliquid. Quia est earum eveniet odit consectetur aliquid quas maiores rem."
+        },
+        {
+          "title": "Temperatura 3",
+          "status": "Failing",
+          "time": "15:22",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae dicta voluptatibus unde quaerat veniam expedita aspernatur? Obcaecati fuga vitae aliquid. Quia est earum eveniet odit consectetur aliquid quas maiores rem."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "galponId": 2,
+      "alerts": [
+        {
+          "title": "Temperatura B1",
+          "status": "Failing",
+          "time": "15:22",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae dicta voluptatibus unde quaerat veniam expedita aspernatur? Obcaecati fuga vitae aliquid. Quia est earum eveniet odit consectetur aliquid quas maiores rem."
+        },
+        {
+          "title": "Temperatura B2",
+          "status": "Normal",
+          "time": "15:22",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae dicta voluptatibus unde quaerat veniam expedita aspernatur? Obcaecati fuga vitae aliquid. Quia est earum eveniet odit consectetur aliquid quas maiores rem."
+        },
+        {
+          "title": "Temperatura B3",
+          "status": "Pending",
+          "time": "15:22",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae dicta voluptatibus unde quaerat veniam expedita aspernatur? Obcaecati fuga vitae aliquid. Quia est earum eveniet odit consectetur aliquid quas maiores rem."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "galponId": 3,
+      "alerts": [
+        {
+          "title": "Temperatura C1",
+          "status": "Pending",
+          "time": "15:22",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae dicta voluptatibus unde quaerat veniam expedita aspernatur? Obcaecati fuga vitae aliquid. Quia est earum eveniet odit consectetur aliquid quas maiores rem."
+        },
+        {
+          "title": "Temperatura C2",
+          "status": "Normal",
+          "time": "15:22",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae dicta voluptatibus unde quaerat veniam expedita aspernatur? Obcaecati fuga vitae aliquid. Quia est earum eveniet odit consectetur aliquid quas maiores rem."
+        },
+        {
+          "title": "Temperatura C3",
+          "status": "Failing",
+          "time": "15:22",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae dicta voluptatibus unde quaerat veniam expedita aspernatur? Obcaecati fuga vitae aliquid. Quia est earum eveniet odit consectetur aliquid quas maiores rem."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "galponId": 4,
+      "alerts": [
+        {
+          "title": "Temperatura D1",
+          "status": "Failing",
+          "time": "15:22",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae dicta voluptatibus unde quaerat veniam expedita aspernatur? Obcaecati fuga vitae aliquid. Quia est earum eveniet odit consectetur aliquid quas maiores rem."
+        },
+        {
+          "title": "Temperatura D2",
+          "status": "Pending",
+          "time": "15:22",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae dicta voluptatibus unde quaerat veniam expedita aspernatur? Obcaecati fuga vitae aliquid. Quia est earum eveniet odit consectetur aliquid quas maiores rem."
+        },
+        {
+          "title": "Temperatura D3",
+          "status": "Normal",
+          "time": "15:22",
+          "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae dicta voluptatibus unde quaerat veniam expedita aspernatur? Obcaecati fuga vitae aliquid. Quia est earum eveniet odit consectetur aliquid quas maiores rem."
+        }
+      ]
+    }
+  ],
+  "socket.io": [],
+  "agrodata": [
+    {
+      "_id": "61c483de1e4f8343e7563fd9",
+      "empresa": 7,
+      "granja": 2,
+      "galponId": 1,
+      "plantelId": 1,
+      "horamuestra": "2021-12-23T14:11:36.054Z",
+      "horaenvio": "2021-12-23T14:12:44.356Z",
+      "tipomuestra": "A",
+      "mediciones": {
+        "in_temp_s1": 22,
+        "in_temp_s2": 43,
+        "in_temp_s3": 32,
+        "in_temp_s4": 47,
+        "grow_day": 1,
+        "req_temp": 30,
+        "in_avg_temp": 30.3,
+        "out_temp": 28.1,
+        "in_hum": 58,
+        "curr_CO2": 627,
+        "day_water_cons": 454,
+        "day_feed_cons": 2,
+        "silo1": 4206,
+        "silo2": 777777,
+        "curr_cool_curtain": 0,
+        "curr_side_inlet": 60,
+        "vent_stage": 2,
+        "therm_sens": 27,
+        "amoniac": 15,
+        "light_intensity": 79
+      },
+      "trend": {
+        "in_temp_s1": "ALTA",
+        "in_temp_s2": "BAJA",
+        "in_temp_s3": "LATERA",
+        "in_temp_s4": "LATERA",
+        "grow_day": "LATERA",
+        "req_temp": "LATERA",
+        "in_avg_temp": "LATERA",
+        "out_temp": "ALTA",
+        "in_hum": "ALTA",
+        "curr_CO2": "ALTA",
+        "day_water_cons": "BAJA",
+        "day_feed_cons": "BAJA",
+        "silo1": "BAJA",
+        "silo2": "BAJA",
+        "curr_cool_curtain": "BAJA",
+        "curr_side_inlet": "BAJA",
+        "vent_stage": "LATERA",
+        "therm_sens": "LATERA",
+        "amoniac": "LATERA",
+        "light_intensity": "LATERA"
+      },
+      "createdAt": "2021-12-23T14:12:46.240Z",
+      "updatedAt": "2021-12-23T14:12:46.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "61c48510bb527d45b5c6b870",
+      "empresa": 7,
+      "granja": 2,
+      "galponId": 2,
+      "plantelId": 2,
+      "horamuestra": "2021-12-23T14:16:48.073Z",
+      "horaenvio": "2021-12-23T14:17:50.293Z",
+      "tipomuestra": "A",
+      "mediciones": {
+        "in_temp_s1": 22,
+        "in_temp_s2": 43,
+        "in_temp_s3": 32,
+        "in_temp_s4": 47,
+        "grow_day": 3,
+        "req_temp": 30,
+        "in_avg_temp": 30.5,
+        "out_temp": 29,
+        "in_hum": 58,
+        "curr_CO2": 627,
+        "day_water_cons": 464,
+        "day_feed_cons": 2,
+        "silo1": 4206,
+        "silo2": 777777,
+        "curr_cool_curtain": 0,
+        "curr_side_inlet": 60,
+        "vent_stage": 2,
+        "therm_sens": 27,
+        "amoniac": 15,
+        "light_intensity": 79
+      },
+      "trend": {
+        "in_temp_s1": "BAJA",
+        "in_temp_s2": "LATERA",
+        "in_temp_s3": "ALTA",
+        "in_temp_s4": "ALTA",
+        "grow_day": "LATERA",
+        "req_temp": "LATERA",
+        "in_avg_temp": "LATERA",
+        "out_temp": "ALTA",
+        "in_hum": "BAJA",
+        "curr_CO2": "LATERA",
+        "day_water_cons": "BAJA",
+        "day_feed_cons": "BAJA",
+        "silo1": "BAJA",
+        "silo2": "BAJA",
+        "curr_cool_curtain": "BAJA",
+        "curr_side_inlet": "BAJA",
+        "vent_stage": "LATERA",
+        "therm_sens": "BAJA",
+        "amoniac": "ALTA",
+        "light_intensity": "LATERA"
+      },
+      "createdAt": "2021-12-23T14:12:46.240Z",
+      "updatedAt": "2021-12-23T14:12:46.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "61c488aba9da2446956ad393",
+      "empresa": 7,
+      "granja": 2,
+      "galponId": 3,
+      "plantelId": 2,
+      "horamuestra": "2021-12-23T14:32:01.640Z",
+      "horaenvio": "2021-12-23T14:33:13.572Z",
+      "tipomuestra": "A",
+      "mediciones": {
+        "in_temp_s1": 22,
+        "in_temp_s2": 43,
+        "in_temp_s3": 32,
+        "in_temp_s4": 47,
+        "grow_day": 3,
+        "req_temp": 0.3,
+        "in_avg_temp": 0.3,
+        "out_temp": 0.3,
+        "in_hum": 3,
+        "curr_CO2": 643,
+        "day_water_cons": 481,
+        "day_feed_cons": 5,
+        "silo1": 4206,
+        "silo2": 777777,
+        "curr_cool_curtain": 0,
+        "curr_side_inlet": 70,
+        "vent_stage": 3,
+        "therm_sens": 27,
+        "amoniac": 15,
+        "light_intensity": 79
+      },
+      "trend": {
+        "in_temp_s1": "LATERA",
+        "in_temp_s2": "BAJA",
+        "in_temp_s3": "ALTA",
+        "in_temp_s4": "ALTA",
+        "grow_day": "LATERA",
+        "req_temp": "LATERA",
+        "in_avg_temp": "LATERA",
+        "out_temp": "ALTA",
+        "in_hum": "ALTA",
+        "curr_CO2": "BAJA",
+        "day_water_cons": "BAJA",
+        "day_feed_cons": "BAJA",
+        "silo1": "BAJA",
+        "silo2": "BAJA",
+        "curr_cool_curtain": "BAJA",
+        "curr_side_inlet": "BAJA",
+        "vent_stage": "LATERA",
+        "therm_sens": "BAJA",
+        "amoniac": "BAJA",
+        "light_intensity": "ALTA"
+      },
+      "createdAt": "2021-12-23T14:12:46.240Z",
+      "updatedAt": "2021-12-23T14:12:46.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "61c48bd1a9da2446956ad396",
+      "empresa": 7,
+      "granja": 2,
+      "galponId": 4,
+      "plantelId": 1,
+      "horamuestra": "2021-12-23T14:45:36.846Z",
+      "horaenvio": "2021-12-23T14:46:39.613Z",
+      "tipomuestra": "A",
+      "mediciones": {
+        "in_temp_s1": 22,
+        "in_temp_s2": 43,
+        "in_temp_s3": 32,
+        "in_temp_s4": 47,
+        "grow_day": 4,
+        "req_temp": 30,
+        "in_avg_temp": 31.6,
+        "out_temp": 33.7,
+        "in_hum": 56,
+        "curr_CO2": 525,
+        "day_water_cons": 500,
+        "day_feed_cons": 5,
+        "silo1": 4206,
+        "silo2": 777777,
+        "curr_cool_curtain": 20,
+        "curr_side_inlet": 70,
+        "vent_stage": 4,
+        "therm_sens": 27,
+        "amoniac": 15,
+        "light_intensity": 79
+      },
+      "trend": {
+        "in_temp_s1": "ALTA",
+        "in_temp_s2": "ALTA",
+        "in_temp_s3": "ALTA",
+        "in_temp_s4": "ALTA",
+        "grow_day": "ALTA",
+        "req_temp": "ALTA",
+        "in_avg_temp": "ALTA",
+        "out_temp": "ALTA",
+        "in_hum": "ALTA",
+        "curr_CO2": "ALTA",
+        "day_water_cons": "ALTA",
+        "day_feed_cons": "BAJA",
+        "silo1": "BAJA",
+        "silo2": "BAJA",
+        "curr_cool_curtain": "BAJA",
+        "curr_side_inlet": "BAJA",
+        "vent_stage": "LATERA",
+        "therm_sens": "ALTA",
+        "amoniac": "ALTA",
+        "light_intensity": "ALTA"
+      },
+      "createdAt": "2021-12-23T14:12:46.240Z",
+      "updatedAt": "2021-12-23T14:12:46.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "61c48d1aa9da2446956ad399",
+      "empresa": 7,
+      "granja": 2,
+      "galponId": 6,
+      "horamuestra": "2021-12-23T14:51:05.751Z",
+      "horaenvio": "2021-12-23T14:52:07.878Z",
+      "tipomuestra": "A",
+      "mediciones": {
+        "in_temp_s1": 22,
+        "in_temp_s2": 43,
+        "in_temp_s3": 32,
+        "in_temp_s4": 47,
+        "grow_day": 6,
+        "req_temp": 30,
+        "in_avg_temp": 31.9,
+        "out_temp": 33.7,
+        "in_hum": 56,
+        "curr_CO2": 525,
+        "day_water_cons": 511,
+        "day_feed_cons": 5,
+        "silo1": 4206,
+        "silo2": 777777,
+        "curr_cool_curtain": 20,
+        "curr_side_inlet": 70,
+        "vent_stage": 4,
+        "therm_sens": 27,
+        "amoniac": 15,
+        "light_intensity": 79
+      },
+      "trend": {
+        "in_temp_s1": "ALTA",
+        "in_temp_s2": "ALTA",
+        "in_temp_s3": "BAJA",
+        "in_temp_s4": "ALTA",
+        "grow_day": "ALTA",
+        "req_temp": "ALTA",
+        "in_avg_temp": "ALTA",
+        "out_temp": "BAJA",
+        "in_hum": "BAJA",
+        "curr_CO2": "BAJA",
+        "day_water_cons": "BAJA",
+        "day_feed_cons": "BAJA",
+        "silo1": "BAJA",
+        "silo2": "BAJA",
+        "curr_cool_curtain": "BAJA",
+        "curr_side_inlet": "BAJA",
+        "vent_stage": "LATERA",
+        "therm_sens": "LATERA",
+        "amoniac": "LATERA",
+        "light_intensity": "LATERA"
+      },
+      "createdAt": "2021-12-23T14:12:46.240Z",
+      "updatedAt": "2021-12-23T14:12:46.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "61c49111a9da2446956ad39c",
+      "empresa": 7,
+      "granja": 2,
+      "galponId": 5,
+      "plantelId": 3,
+      "horamuestra": "2021-12-23T15:08:01.838Z",
+      "horaenvio": "2021-12-23T15:09:03.741Z",
+      "tipomuestra": "A",
+      "mediciones": {
+        "in_temp_s1": 22,
+        "in_temp_s2": 43,
+        "in_temp_s3": 32,
+        "in_temp_s4": 47,
+        "grow_day": 5,
+        "req_temp": 30,
+        "in_avg_temp": 32.1,
+        "out_temp": 34.4,
+        "in_hum": 54,
+        "curr_CO2": 556,
+        "day_water_cons": 535,
+        "day_feed_cons": 121,
+        "silo1": 4082,
+        "silo2": 777777,
+        "curr_cool_curtain": 30,
+        "curr_side_inlet": 70,
+        "vent_stage": 5,
+        "therm_sens": 27,
+        "amoniac": 15,
+        "light_intensity": 79
+      },
+      "trend": {
+        "in_temp_s1": "BAJA",
+        "in_temp_s2": "BAJA",
+        "in_temp_s3": "LATERA",
+        "in_temp_s4": "LATERA",
+        "grow_day": "LATERA",
+        "req_temp": "LATERA",
+        "in_avg_temp": "LATERA",
+        "out_temp": "ALTA",
+        "in_hum": "ALTA",
+        "curr_CO2": "ALTA",
+        "day_water_cons": "BAJA",
+        "day_feed_cons": "BAJA",
+        "silo1": "BAJA",
+        "silo2": "BAJA",
+        "curr_cool_curtain": "BAJA",
+        "curr_side_inlet": "BAJA",
+        "vent_stage": "LATERA",
+        "therm_sens": "LATERA",
+        "amoniac": "LATERA",
+        "light_intensity": "LATERA"
+      },
+      "createdAt": "2021-12-23T14:12:46.240Z",
+      "updatedAt": "2021-12-23T14:12:46.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "61c49190a9da2446956ad39f",
+      "empresa": 7,
+      "granja": 2,
+      "horamuestra": "2021-12-23T15:10:02.060Z",
+      "horaenvio": "2021-12-23T15:11:11.354Z",
+      "tipomuestra": "A",
+      "mediciones": {
+        "in_temp_s1": 22,
+        "in_temp_s2": 43,
+        "in_temp_s3": 32,
+        "in_temp_s4": 47,
+        "grow_day": 2,
+        "req_temp": 30,
+        "in_avg_temp": 32.2,
+        "out_temp": 34.4,
+        "in_hum": 54,
+        "curr_CO2": 556,
+        "day_water_cons": 535,
+        "day_feed_cons": 121,
+        "silo1": 4082,
+        "silo2": 777777,
+        "curr_cool_curtain": 30,
+        "curr_side_inlet": 70,
+        "vent_stage": 5,
+        "therm_sens": 27,
+        "amoniac": 15,
+        "light_intensity": 79
+      },
+      "trend": {
+        "in_temp_s1": "ALTA",
+        "in_temp_s2": "BAJA",
+        "in_temp_s3": "LATERA",
+        "in_temp_s4": "LATERA",
+        "grow_day": "LATERA",
+        "req_temp": "LATERA",
+        "in_avg_temp": "LATERA",
+        "out_temp": "ALTA",
+        "in_hum": "ALTA",
+        "curr_CO2": "ALTA",
+        "day_water_cons": "BAJA",
+        "day_feed_cons": "BAJA",
+        "silo1": "BAJA",
+        "silo2": "BAJA",
+        "curr_cool_curtain": "BAJA",
+        "curr_side_inlet": "BAJA",
+        "vent_stage": "LATERA",
+        "therm_sens": "LATERA",
+        "amoniac": "LATERA",
+        "light_intensity": "LATERA"
+      },
+      "createdAt": "2021-12-23T14:12:46.240Z",
+      "updatedAt": "2021-12-23T14:12:46.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "61c491fca9da2446956ad3a2",
+      "empresa": 7,
+      "granja": 2,
+      "horamuestra": "2021-12-23T15:12:01.708Z",
+      "horaenvio": "2021-12-23T15:12:59.111Z",
+      "tipomuestra": "A",
+      "mediciones": {
+        "in_temp_s1": 22,
+        "in_temp_s2": 43,
+        "in_temp_s3": 32,
+        "in_temp_s4": 47,
+        "grow_day": 3,
+        "req_temp": 30,
+        "in_avg_temp": 32.3,
+        "out_temp": 34.6,
+        "in_hum": 54,
+        "curr_CO2": 556,
+        "day_water_cons": 543,
+        "day_feed_cons": 122,
+        "silo1": 4081,
+        "silo2": 777777,
+        "curr_cool_curtain": 30,
+        "curr_side_inlet": 70,
+        "vent_stage": 5
+      },
+      "trend": {
+        "in_temp_s1": "ALTA",
+        "in_temp_s2": "BAJA",
+        "in_temp_s3": "LATERA",
+        "in_temp_s4": "LATERA",
+        "grow_day": "LATERA",
+        "req_temp": "LATERA",
+        "in_avg_temp": "LATERA",
+        "out_temp": "ALTA",
+        "in_hum": "ALTA",
+        "curr_CO2": "ALTA",
+        "day_water_cons": "BAJA",
+        "day_feed_cons": "BAJA",
+        "silo1": "BAJA",
+        "silo2": "BAJA",
+        "curr_cool_curtain": "BAJA",
+        "curr_side_inlet": "BAJA",
+        "vent_stage": "LATERA",
+        "therm_sens": "LATERA",
+        "amoniac": "LATERA",
+        "light_intensity": "LATERA"
+      },
+      "createdAt": "2021-12-23T14:12:46.240Z",
+      "updatedAt": "2021-12-23T14:12:46.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "61c49275a9da2446956ad3a5",
+      "empresa": 7,
+      "granja": 2,
+      "horamuestra": "2021-12-23T15:14:01.538Z",
+      "horaenvio": "2021-12-23T15:14:59.378Z",
+      "tipomuestra": "A",
+      "mediciones": {
+        "in_temp_s1": 22,
+        "in_temp_s2": 43,
+        "in_temp_s3": 32,
+        "in_temp_s4": 47,
+        "grow_day": 3,
+        "req_temp": 30,
+        "in_avg_temp": 32.1,
+        "out_temp": 34.9,
+        "in_hum": 54,
+        "curr_CO2": 471,
+        "day_water_cons": 546,
+        "day_feed_cons": 142,
+        "silo1": 4062,
+        "silo2": 777777,
+        "curr_cool_curtain": 30,
+        "curr_side_inlet": 70,
+        "vent_stage": 5
+      },
+      "trend": {
+        "in_temp_s1": "ALTA",
+        "in_temp_s2": "BAJA",
+        "in_temp_s3": "LATERA",
+        "in_temp_s4": "LATERA",
+        "grow_day": "LATERA",
+        "req_temp": "LATERA",
+        "in_avg_temp": "LATERA",
+        "out_temp": "ALTA",
+        "in_hum": "ALTA",
+        "curr_CO2": "ALTA",
+        "day_water_cons": "BAJA",
+        "day_feed_cons": "BAJA",
+        "silo1": "BAJA",
+        "silo2": "BAJA",
+        "curr_cool_curtain": "BAJA",
+        "curr_side_inlet": "BAJA",
+        "vent_stage": "LATERA",
+        "therm_sens": "LATERA",
+        "amoniac": "LATERA",
+        "light_intensity": "LATERA"
+      },
+      "createdAt": "2021-12-23T14:12:46.240Z",
+      "updatedAt": "2021-12-23T14:12:46.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "61c495b92334254802296076",
+      "empresa": 7,
+      "granja": 2,
+      "horamuestra": "2021-12-23T15:28:01.758Z",
+      "horaenvio": "2021-12-23T15:28:55.695Z",
+      "tipomuestra": "A",
+      "mediciones": {
+        "in_temp_s1": 22,
+        "in_temp_s2": 43,
+        "in_temp_s3": 32,
+        "in_temp_s4": 47,
+        "grow_day": 3,
+        "in_avg_temp": 30.7,
+        "out_temp": 37.8,
+        "in_hum": 57,
+        "curr_CO2": 459,
+        "day_water_cons": 557,
+        "day_feed_cons": 144,
+        "silo1": 4059,
+        "silo2": 777777,
+        "curr_cool_curtain": 0,
+        "day_mor": 22,
+        "total_mor": 26
+      },
+      "trend": {
+        "in_temp_s1": "ALTA",
+        "in_temp_s2": "BAJA",
+        "in_temp_s3": "LATERA",
+        "in_temp_s4": "LATERA",
+        "grow_day": "LATERA",
+        "req_temp": "LATERA",
+        "in_avg_temp": "LATERA",
+        "out_temp": "ALTA",
+        "in_hum": "ALTA",
+        "curr_CO2": "ALTA",
+        "day_water_cons": "BAJA",
+        "day_feed_cons": "BAJA",
+        "silo1": "BAJA",
+        "silo2": "BAJA",
+        "curr_cool_curtain": "BAJA",
+        "curr_side_inlet": "BAJA",
+        "vent_stage": "LATERA",
+        "therm_sens": "LATERA",
+        "amoniac": "LATERA",
+        "light_intensity": "LATERA"
+      },
+      "createdAt": "2021-12-23T14:12:46.240Z",
+      "updatedAt": "2021-12-23T14:12:46.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "61c496ab5c069448dffc8d1f",
+      "empresa": 7,
+      "granja": 2,
+      "horamuestra": "2021-12-23T15:32:01.615Z",
+      "horaenvio": "2021-12-23T15:32:57.502Z",
+      "tipomuestra": "A",
+      "mediciones": {
+        "in_temp_s1": 22,
+        "in_temp_s2": 43,
+        "in_temp_s3": 32,
+        "in_temp_s4": 47,
+        "grow_day": 3,
+        "in_avg_temp": 30.9,
+        "out_temp": 37.8,
+        "in_hum": 56,
+        "curr_CO2": 459,
+        "day_water_cons": 564,
+        "day_feed_cons": 144,
+        "silo1": 4061,
+        "silo2": 777777,
+        "curr_cool_curtain": 0,
+        "day_mor": 22,
+        "total_mor": 26
+      },
+      "trend": {
+        "in_temp_s1": "ALTA",
+        "in_temp_s2": "BAJA",
+        "in_temp_s3": "LATERA",
+        "in_temp_s4": "LATERA",
+        "grow_day": "LATERA",
+        "req_temp": "LATERA",
+        "in_avg_temp": "LATERA",
+        "out_temp": "ALTA",
+        "in_hum": "ALTA",
+        "curr_CO2": "ALTA",
+        "day_water_cons": "BAJA",
+        "day_feed_cons": "BAJA",
+        "silo1": "BAJA",
+        "silo2": "BAJA",
+        "curr_cool_curtain": "BAJA",
+        "curr_side_inlet": "BAJA",
+        "vent_stage": "LATERA",
+        "therm_sens": "LATERA",
+        "amoniac": "LATERA",
+        "light_intensity": "LATERA"
+      },
+      "createdAt": "2021-12-23T14:12:46.240Z",
+      "updatedAt": "2021-12-23T14:12:46.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "61c498ff5c069448dffc8d22",
+      "empresa": 7,
+      "granja": 2,
+      "horamuestra": "2021-12-23T15:42:01.432Z",
+      "horaenvio": "2021-12-23T15:42:53.277Z",
+      "tipomuestra": "A",
+      "mediciones": {
+        "in_temp_s1": 22,
+        "in_temp_s2": 43,
+        "in_temp_s3": 32,
+        "in_temp_s4": 47,
+        "grow_day": 3,
+        "in_avg_temp": 31.1,
+        "out_temp": 38.2,
+        "in_hum": 55,
+        "curr_CO2": 431,
+        "day_water_cons": 574,
+        "day_feed_cons": 144,
+        "silo1": 4062,
+        "silo2": 777777,
+        "curr_cool_curtain": 0,
+        "day_mor": 22,
+        "total_mor": 26
+      },
+      "trend": {
+        "in_temp_s1": "ALTA",
+        "in_temp_s2": "BAJA",
+        "in_temp_s3": "LATERA",
+        "in_temp_s4": "LATERA",
+        "grow_day": "LATERA",
+        "req_temp": "LATERA",
+        "in_avg_temp": "LATERA",
+        "out_temp": "ALTA",
+        "in_hum": "ALTA",
+        "curr_CO2": "ALTA",
+        "day_water_cons": "BAJA",
+        "day_feed_cons": "BAJA",
+        "silo1": "BAJA",
+        "silo2": "BAJA",
+        "curr_cool_curtain": "BAJA",
+        "curr_side_inlet": "BAJA",
+        "vent_stage": "LATERA",
+        "therm_sens": "LATERA",
+        "amoniac": "LATERA",
+        "light_intensity": "LATERA"
+      },
+      "createdAt": "2021-12-23T14:12:46.240Z",
+      "updatedAt": "2021-12-23T14:12:46.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "61c499795c069448dffc8d25",
+      "empresa": 7,
+      "granja": 2,
+      "horamuestra": "2021-12-23T15:44:01.817Z",
+      "horaenvio": "2021-12-23T15:44:54.817Z",
+      "tipomuestra": "A",
+      "mediciones": {
+        "in_temp_s1": 22,
+        "in_temp_s2": 43,
+        "in_temp_s3": 32,
+        "in_temp_s4": 47,
+        "grow_day": 3,
+        "in_avg_temp": 31.1,
+        "out_temp": 38.2,
+        "in_hum": 55,
+        "curr_CO2": 431,
+        "day_water_cons": 574,
+        "day_feed_cons": 144,
+        "silo1": 4062,
+        "silo2": 777777,
+        "curr_cool_curtain": 0,
+        "day_mor": 22,
+        "total_mor": 26
+      },
+      "trend": {
+        "in_temp_s1": "ALTA",
+        "in_temp_s2": "BAJA",
+        "in_temp_s3": "LATERA",
+        "in_temp_s4": "LATERA",
+        "grow_day": "LATERA",
+        "req_temp": "LATERA",
+        "in_avg_temp": "LATERA",
+        "out_temp": "ALTA",
+        "in_hum": "ALTA",
+        "curr_CO2": "ALTA",
+        "day_water_cons": "BAJA",
+        "day_feed_cons": "BAJA",
+        "silo1": "BAJA",
+        "silo2": "BAJA",
+        "curr_cool_curtain": "BAJA",
+        "curr_side_inlet": "BAJA",
+        "vent_stage": "LATERA",
+        "therm_sens": "LATERA",
+        "amoniac": "LATERA",
+        "light_intensity": "LATERA"
+      },
+      "createdAt": "2021-12-23T14:12:46.240Z",
+      "updatedAt": "2021-12-23T14:12:46.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "61c499ef5c069448dffc8d28",
+      "empresa": 7,
+      "granja": 2,
+      "horamuestra": "2021-12-23T15:46:01.317Z",
+      "horaenvio": "2021-12-23T15:46:53.577Z",
+      "tipomuestra": "A",
+      "mediciones": {
+        "in_temp_s1": 22,
+        "in_temp_s2": 43,
+        "in_temp_s3": 32,
+        "in_temp_s4": 47,
+        "grow_day": 3,
+        "in_avg_temp": 31.1,
+        "out_temp": 38.2,
+        "in_hum": 55,
+        "curr_CO2": 431,
+        "day_water_cons": 574,
+        "day_feed_cons": 144,
+        "silo1": 4062,
+        "silo2": 777777,
+        "curr_cool_curtain": 0,
+        "day_mor": 22,
+        "total_mor": 26
+      },
+      "trend": {
+        "in_temp_s1": "ALTA",
+        "in_temp_s2": "BAJA",
+        "in_temp_s3": "LATERA",
+        "in_temp_s4": "LATERA",
+        "grow_day": "LATERA",
+        "req_temp": "LATERA",
+        "in_avg_temp": "LATERA",
+        "out_temp": "ALTA",
+        "in_hum": "ALTA",
+        "curr_CO2": "ALTA",
+        "day_water_cons": "BAJA",
+        "day_feed_cons": "BAJA",
+        "silo1": "BAJA",
+        "silo2": "BAJA",
+        "curr_cool_curtain": "BAJA",
+        "curr_side_inlet": "BAJA",
+        "vent_stage": "LATERA",
+        "therm_sens": "LATERA",
+        "amoniac": "LATERA",
+        "light_intensity": "LATERA"
+      },
+      "createdAt": "2021-12-23T14:12:46.240Z",
+      "updatedAt": "2021-12-23T14:12:46.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "61c49a6e5c069448dffc8d2b",
+      "empresa": 7,
+      "granja": 2,
+      "horamuestra": "2021-12-23T15:48:02.020Z",
+      "horaenvio": "2021-12-23T15:49:00.977Z",
+      "tipomuestra": "A",
+      "mediciones": {
+        "in_temp_s1": 22,
+        "in_temp_s2": 43,
+        "in_temp_s3": 32,
+        "in_temp_s4": 47,
+        "grow_day": 3,
+        "in_avg_temp": 31.1,
+        "out_temp": 37.5,
+        "in_hum": 55,
+        "curr_CO2": 431,
+        "day_water_cons": 582,
+        "day_feed_cons": 144,
+        "silo1": 4061,
+        "silo2": 777777,
+        "curr_cool_curtain": 0,
+        "day_mor": 22,
+        "total_mor": 26
+      },
+      "trend": {
+        "in_temp_s1": "ALTA",
+        "in_temp_s2": "BAJA",
+        "in_temp_s3": "LATERA",
+        "in_temp_s4": "LATERA",
+        "grow_day": "LATERA",
+        "req_temp": "LATERA",
+        "in_avg_temp": "LATERA",
+        "out_temp": "ALTA",
+        "in_hum": "ALTA",
+        "curr_CO2": "ALTA",
+        "day_water_cons": "BAJA",
+        "day_feed_cons": "BAJA",
+        "silo1": "BAJA",
+        "silo2": "BAJA",
+        "curr_cool_curtain": "BAJA",
+        "curr_side_inlet": "BAJA",
+        "vent_stage": "LATERA",
+        "therm_sens": "LATERA",
+        "amoniac": "LATERA",
+        "light_intensity": "LATERA"
+      },
+      "createdAt": "2021-12-23T14:12:46.240Z",
+      "updatedAt": "2021-12-23T14:12:46.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "61c49ae05c069448dffc8d2e",
+      "empresa": 7,
+      "granja": 2,
+      "horamuestra": "2021-12-23T15:50:01.408Z",
+      "horaenvio": "2021-12-23T15:50:54.881Z",
+      "tipomuestra": "A",
+      "mediciones": {
+        "in_temp_s1": 22,
+        "in_temp_s2": 43,
+        "in_temp_s3": 32,
+        "in_temp_s4": 47,
+        "grow_day": 3,
+        "in_avg_temp": 31.2,
+        "out_temp": 37.5,
+        "in_hum": 55,
+        "curr_CO2": 431,
+        "day_water_cons": 582,
+        "day_feed_cons": 144,
+        "silo1": 4061,
+        "silo2": 777777,
+        "curr_cool_curtain": 0,
+        "day_mor": 22,
+        "total_mor": 26
+      },
+      "trend": {
+        "in_temp_s1": "ALTA",
+        "in_temp_s2": "BAJA",
+        "in_temp_s3": "LATERA",
+        "in_temp_s4": "LATERA",
+        "grow_day": "LATERA",
+        "req_temp": "LATERA",
+        "in_avg_temp": "LATERA",
+        "out_temp": "ALTA",
+        "in_hum": "ALTA",
+        "curr_CO2": "ALTA",
+        "day_water_cons": "BAJA",
+        "day_feed_cons": "BAJA",
+        "silo1": "BAJA",
+        "silo2": "BAJA",
+        "curr_cool_curtain": "BAJA",
+        "curr_side_inlet": "BAJA",
+        "vent_stage": "LATERA",
+        "therm_sens": "LATERA",
+        "amoniac": "LATERA",
+        "light_intensity": "LATERA"
+      },
+      "createdAt": "2021-12-23T14:12:46.240Z",
+      "updatedAt": "2021-12-23T14:12:46.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "61c49b5b5c069448dffc8d31",
+      "empresa": 7,
+      "granja": 2,
+      "horamuestra": "2021-12-23T15:52:02.255Z",
+      "horaenvio": "2021-12-23T15:52:56.368Z",
+      "tipomuestra": "A",
+      "mediciones": {
+        "in_temp_s1": 22,
+        "in_temp_s2": 43,
+        "in_temp_s3": 32,
+        "in_temp_s4": 47,
+        "grow_day": 3,
+        "in_avg_temp": 31.2,
+        "out_temp": 37.5,
+        "in_hum": 55,
+        "curr_CO2": 431,
+        "day_water_cons": 582,
+        "day_feed_cons": 144,
+        "silo1": 4061,
+        "silo2": 777777,
+        "curr_cool_curtain": 0,
+        "day_mor": 22,
+        "total_mor": 26
+      },
+      "trend": {
+        "in_temp_s1": "ALTA",
+        "in_temp_s2": "BAJA",
+        "in_temp_s3": "LATERA",
+        "in_temp_s4": "LATERA",
+        "grow_day": "LATERA",
+        "req_temp": "LATERA",
+        "in_avg_temp": "LATERA",
+        "out_temp": "ALTA",
+        "in_hum": "ALTA",
+        "curr_CO2": "ALTA",
+        "day_water_cons": "BAJA",
+        "day_feed_cons": "BAJA",
+        "silo1": "BAJA",
+        "silo2": "BAJA",
+        "curr_cool_curtain": "BAJA",
+        "curr_side_inlet": "BAJA",
+        "vent_stage": "LATERA",
+        "therm_sens": "LATERA",
+        "amoniac": "LATERA",
+        "light_intensity": "LATERA"
+      },
+      "createdAt": "2021-12-23T14:12:46.240Z",
+      "updatedAt": "2021-12-23T14:12:46.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "61c49bd05c069448dffc8d34",
+      "empresa": 7,
+      "granja": 2,
+      "horamuestra": "2021-12-23T15:54:02.009Z",
+      "horaenvio": "2021-12-23T15:54:54.895Z",
+      "tipomuestra": "A",
+      "mediciones": {
+        "in_temp_s1": 22,
+        "in_temp_s2": 43,
+        "in_temp_s3": 32,
+        "in_temp_s4": 47,
+        "grow_day": 3,
+        "in_avg_temp": 31.2,
+        "out_temp": 37.5,
+        "in_hum": 55,
+        "curr_CO2": 431,
+        "day_water_cons": 582,
+        "day_feed_cons": 144,
+        "silo1": 4061,
+        "silo2": 777777,
+        "curr_cool_curtain": 0,
+        "day_mor": 22,
+        "total_mor": 26
+      },
+      "trend": {
+        "in_temp_s1": "ALTA",
+        "in_temp_s2": "BAJA",
+        "in_temp_s3": "LATERA",
+        "in_temp_s4": "LATERA",
+        "grow_day": "LATERA",
+        "req_temp": "LATERA",
+        "in_avg_temp": "LATERA",
+        "out_temp": "ALTA",
+        "in_hum": "ALTA",
+        "curr_CO2": "ALTA",
+        "day_water_cons": "BAJA",
+        "day_feed_cons": "BAJA",
+        "silo1": "BAJA",
+        "silo2": "BAJA",
+        "curr_cool_curtain": "BAJA",
+        "curr_side_inlet": "BAJA",
+        "vent_stage": "LATERA",
+        "therm_sens": "LATERA",
+        "amoniac": "LATERA",
+        "light_intensity": "LATERA"
+      },
+      "createdAt": "2021-12-23T14:12:46.240Z",
+      "updatedAt": "2021-12-23T14:12:46.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "61c49c485c069448dffc8d37",
+      "empresa": 7,
+      "granja": 2,
+      "horamuestra": "2021-12-23T15:56:02.199Z",
+      "horaenvio": "2021-12-23T15:56:54.836Z",
+      "tipomuestra": "A",
+      "mediciones": {
+        "in_temp_s1": 22,
+        "in_temp_s2": 43,
+        "in_temp_s3": 32,
+        "in_temp_s4": 47,
+        "grow_day": 3,
+        "in_avg_temp": 31.3,
+        "out_temp": 37.8,
+        "in_hum": 55,
+        "curr_CO2": 439,
+        "day_water_cons": 591,
+        "day_feed_cons": 144,
+        "silo1": 4061,
+        "silo2": 777777,
+        "curr_cool_curtain": 0,
+        "day_mor": 22,
+        "total_mor": 26
+      },
+      "trend": {
+        "in_temp_s1": "ALTA",
+        "in_temp_s2": "BAJA",
+        "in_temp_s3": "LATERA",
+        "in_temp_s4": "LATERA",
+        "grow_day": "LATERA",
+        "req_temp": "LATERA",
+        "in_avg_temp": "LATERA",
+        "out_temp": "ALTA",
+        "in_hum": "ALTA",
+        "curr_CO2": "ALTA",
+        "day_water_cons": "BAJA",
+        "day_feed_cons": "BAJA",
+        "silo1": "BAJA",
+        "silo2": "BAJA",
+        "curr_cool_curtain": "BAJA",
+        "curr_side_inlet": "BAJA",
+        "vent_stage": "LATERA",
+        "therm_sens": "LATERA",
+        "amoniac": "LATERA",
+        "light_intensity": "LATERA"
+      },
+      "createdAt": "2021-12-23T14:12:46.240Z",
+      "updatedAt": "2021-12-23T14:12:46.240Z",
+      "__v": 0
+    },
+    {
+      "_id": "61c49cc25c069448dffc8d3a",
+      "empresa": 7,
+      "granja": 2,
+      "horamuestra": "2021-12-23T15:58:02.120Z",
+      "horaenvio": "2021-12-23T15:58:56.673Z",
+      "tipomuestra": "A",
+      "mediciones": {
+        "in_temp_s1": 22,
+        "in_temp_s2": 43,
+        "in_temp_s3": 32,
+        "in_temp_s4": 47,
+        "grow_day": 3,
+        "in_avg_temp": 31.3,
+        "out_temp": 37.8,
+        "in_hum": 55,
+        "curr_CO2": 439,
+        "day_water_cons": 591,
+        "day_feed_cons": 144,
+        "silo1": 4061,
+        "silo2": 777777,
+        "curr_cool_curtain": 0,
+        "day_mor": 22,
+        "total_mor": 26
+      },
+      "trend": {
+        "in_temp_s1": "ALTA",
+        "in_temp_s2": "BAJA",
+        "in_temp_s3": "LATERA",
+        "in_temp_s4": "LATERA",
+        "grow_day": "LATERA",
+        "req_temp": "LATERA",
+        "in_avg_temp": "LATERA",
+        "out_temp": "ALTA",
+        "in_hum": "ALTA",
+        "curr_CO2": "ALTA",
+        "day_water_cons": "BAJA",
+        "day_feed_cons": "BAJA",
+        "silo1": "BAJA",
+        "silo2": "BAJA",
+        "curr_cool_curtain": "BAJA",
+        "curr_side_inlet": "BAJA",
+        "vent_stage": "LATERA",
+        "therm_sens": "LATERA",
+        "amoniac": "LATERA",
+        "light_intensity": "LATERA"
+      },
+      "createdAt": "2021-12-23T14:12:46.240Z",
+      "updatedAt": "2021-12-23T14:12:46.240Z",
+      "__v": 0
+    }
+  ],
+  "basePermissions": {
+    "granjas": [
+      {
+        "id": 1,
+        "nombre": "Granja 1",
+        "planteles": [
+          {
+            "id": 1,
+            "nombre": "Plantel 1",
+            "galpones": [
+              {
+                "id": 1,
+                "nombre": "Galpon 1"
+              },
+              {
+                "id": 4,
+                "nombre": "Galpon 4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Granja 2",
+        "planteles": [
+          {
+            "id": 2,
+            "nombre": "Plantel 2",
+            "galpones": [
+              {
+                "id": 2,
+                "nombre": "Galpon 2"
+              },
+              {
+                "id": 3,
+                "nombre": "Galpon 3"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "nombre": "Plantel 3",
+            "galpones": [
+              {
+                "id": 4,
+                "nombre": "Galpon 4"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
