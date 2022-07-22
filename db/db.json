@@ -20,27 +20,45 @@
   "usuarios": [
     {
       "id": 1,
-      "name": "Temperatura"
+      "name": "Juan Carlos",
+      "lastname": "Mejia Vieco",
+      "email": "juanjo@gmail.com",
+      "phone": "234234543234"
     },
     {
       "id": 2,
-      "name": "Humedad"
+      "name": "Mario Alberto",
+      "lastname": "Valencia",
+      "email": "mario@gmail.com",
+      "phone": "234234543234"
     },
     {
       "id": 3,
-      "name": "CO2"
+      "name": "Miguel",
+      "lastname": "Ruiz",
+      "email": "miguel@gmail.com",
+      "phone": "234234543234"
     },
     {
       "id": 4,
-      "name": "Días de crecimiento"
+      "name": "Pedro",
+      "lastname": "Alvarez",
+      "email": "pedro@gmail.com",
+      "phone": "234234543234"
     },
     {
       "id": 5,
-      "name": "Consumo de Agua"
+      "name": "Daniel",
+      "lastname": "Guaje Viena",
+      "email": "daniel@gmail.com",
+      "phone": "234234543234"
     },
     {
       "id": 6,
-      "name": "Consumo de Alimento"
+      "name": "Pablo",
+      "lastname": "Crisanto Perez",
+      "email": "pablo@gmail.com",
+      "phone": "234234543234"
     }
   ],
   "condicionActivacion": [
